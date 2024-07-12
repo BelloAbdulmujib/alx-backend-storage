@@ -1,0 +1,8 @@
+'''Creates a table users with some requirements.
+'''
+
+CREATE TABLE IF NOT EXISTS users (
+    id int AUTO_INCREMENT PRIMARY KEY,
+    email varchar(255) NOT NULL UNIQUE,
+    name varchar(255)
+);

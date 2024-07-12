@@ -1,0 +1,13 @@
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Thu 2024-07-11 14:19:30 -11; 1min 55s ago
+    Process: 470 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+    Process: 800 ExecStart=/usr/sbin/mysqld (code=exited, status=0/SUCCESS)
+   Main PID: 800 (code=exited, status=0/SUCCESS)
+     Status: "Server shutdown complete"
+
+Jul 11 02:48:49 DESKTOP-CP2ARGE systemd[1]: Starting MySQL Community Server...
+Jul 11 02:49:28 DESKTOP-CP2ARGE systemd[1]: Started MySQL Community Server.
+Jul 11 14:19:25 DESKTOP-CP2ARGE systemd[1]: Stopping MySQL Community Server...
+Jul 11 14:19:30 DESKTOP-CP2ARGE systemd[1]: mysql.service: Succeeded.
+Jul 11 14:19:30 DESKTOP-CP2ARGE systemd[1]: Stopped MySQL Community Server.
