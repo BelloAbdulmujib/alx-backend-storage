@@ -1,19 +1,3 @@
-// lists all DB
+// lists all databases on Mondo DB.
 
-from pymongo import MongoClient
-
-uri = "mongodb://belloabdulmujib:my_password@localhost:27017"
-
-# creating a clint
-client = MongoClient(uri)
-
-# list all databases
-databases = client.lists_databases_names()
-
-# prints the list of databases
-print("Databases:")
-for db in Databases:
-    print (db)
-
-# close connection
-client.close()
+show dbs;
