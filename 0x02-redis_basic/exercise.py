@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Class that store an instance of the Redis client as a private variable
+'''Class that stores an instance of the Redis client as a private variable
 '''
 
 import redis
